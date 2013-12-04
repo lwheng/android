@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
 			showPopup(findViewById(R.id.action_overflow));
 			return true;
 		}
-		return true;
+		return super.onKeyUp(keyCode, event);
 	}
 
 }
